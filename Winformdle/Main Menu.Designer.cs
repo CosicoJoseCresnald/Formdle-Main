@@ -87,7 +87,7 @@
             btnTagalog.Name = "btnTagalog";
             btnTagalog.Size = new Size(108, 34);
             btnTagalog.TabIndex = 2;
-            btnTagalog.Text = "TAGALOG";
+            btnTagalog.Text = "FILIPINO";
             btnTagalog.UseVisualStyleBackColor = true;
             btnTagalog.Click += btnTagalog_Click1;
             // 
@@ -228,6 +228,7 @@
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Formdle";
+            FormClosed += MainMenu_FormClosed;
             Load += Form1_Load;
             pnlMainMenu.ResumeLayout(false);
             pnlLanguage.ResumeLayout(false);

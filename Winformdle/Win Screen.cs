@@ -27,14 +27,19 @@ namespace Winformdle
         {
 
             MainMenu mainMenu = new MainMenu();
-            this.Close();
+            this.Hide();
             this.ResetText();
             mainMenu.Show();
-    }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void WinScreen_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sojeee\\OneDrive\\Documents\\Winformdle-main2\\Winformdle-main1\\Winformdle\\Winformdle\\Winformdle.csproj",
+      "projectUniqueName": "C:\\Users\\Sojeee\\OneDrive\\Desktop\\Formdle\\Formdle Final\\Winformdle\\Winformdle\\Winformdle.csproj",
       "projectName": "Winformdle",
-      "projectPath": "C:\\Users\\Sojeee\\OneDrive\\Documents\\Winformdle-main2\\Winformdle-main1\\Winformdle\\Winformdle\\Winformdle.csproj",
+      "projectPath": "C:\\Users\\Sojeee\\OneDrive\\Desktop\\Formdle\\Formdle Final\\Winformdle\\Winformdle\\Winformdle.csproj",
       "packagesPath": "C:\\Users\\Sojeee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sojeee\\OneDrive\\Documents\\Winformdle-main2\\Winformdle-main1\\Winformdle\\Winformdle\\obj\\",
+      "outputPath": "C:\\Users\\Sojeee\\OneDrive\\Desktop\\Formdle\\Formdle Final\\Winformdle\\Winformdle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -51,12 +51,12 @@ namespace Winformdle
 
 
         //CHECKS WHAT ATTEMPT THE USER IS IN
-        static bool attempt1 = true;
-        static bool attempt2 = false;
-        static bool attempt3 = false;
-        static bool attempt4 = false;
-        static bool attempt5 = false;
-        static bool attempt6 = false;
+        public static bool attempt1 = true;
+        public static bool attempt2 = false;
+        public static bool attempt3 = false;
+        public static bool attempt4 = false;
+        public static bool attempt5 = false;
+        public static bool attempt6 = false;
 
 
         public static string[] wordInventory ={ "ABSOLVE", "ANALYZE", "APPROVE", "ADVANCE", "ADDRESS",
@@ -222,7 +222,7 @@ namespace Winformdle
         //WHEN USER CLICKS BACKSPACE BUTTON
         private void backspaceBtn_Click(object sender, EventArgs e)
         {
-            RemoveChar();
+            Remove_Character.GM1FilipinoRemoveCharHard();
         }
 
         //WHEN USER CLICKS ENTER BUTTON
@@ -239,7 +239,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var winScreen = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         winScreen.Show();
                         attempt1 = true;
                     }
@@ -267,7 +267,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt2 = false;
@@ -294,7 +294,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt3 = false;
@@ -321,7 +321,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt4 = false;
@@ -349,7 +349,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt5 = false;
@@ -377,7 +377,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt6 = false;
@@ -386,7 +386,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         Form LoseScreen = new LoseScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         LoseScreen.Show();
                         attempt1 = true;
                         attempt6 = false;
@@ -612,255 +612,6 @@ namespace Winformdle
 
         }//method end
 
-        //REMOVECHAR METHOD
-        private void RemoveChar()
-        {
-            //loop for letters a-z
-            for (char c = 'A'; c <= 'Z'; c++)
-            {
-                if (attempt1)
-                {
-                    //attempt1
-
-                    if (attempt1Char7.Text.Contains(c.ToString()))
-                    {
-                        attempt1Char7.Text = "";
-
-                    }
-                    else if (attempt1Char6.Text.Contains(c.ToString()) && attempt1Char7.Text == "")
-                    {
-                        attempt1Char6.Text = "";
-
-                    }
-                    else if (attempt1Char5.Text.Contains(c.ToString()) && attempt1Char6.Text == "")
-                    {
-                        attempt1Char5.Text = "";
-
-                    }
-                    else if (attempt1Char4.Text.Contains(c.ToString()) && attempt1Char5.Text == "")
-                    {
-                        attempt1Char4.Text = "";
-
-                    }
-                    else if (attempt1Char3.Text.Contains(c.ToString()) && attempt1Char4.Text == "")
-                    {
-                        attempt1Char3.Text = "";
-
-                    }
-                    else if (attempt1Char2.Text.Contains(c.ToString()) && attempt1Char3.Text == "")
-                    {
-                        attempt1Char2.Text = "";
-
-                    }
-                    else if (attempt1Char1.Text.Contains(c.ToString()) && attempt1Char2.Text == "")
-                    {
-                        attempt1Char1.Text = "";
-
-                    }
-
-                }//endif attempt 1
-
-                if (attempt2)
-                {
-                    //attempt2 
-                    if (attempt2Char7.Text.Contains(c.ToString()))
-                    {
-                        attempt2Char7.Text = "";
-
-                    }
-                    else if (attempt2Char6.Text.Contains(c.ToString()) && attempt2Char7.Text == "")
-                    {
-                        attempt2Char6.Text = "";
-
-                    }
-                    else if (attempt2Char5.Text.Contains(c.ToString()) && attempt2Char6.Text == "")
-                    {
-                        attempt2Char5.Text = "";
-
-                    }
-                    else if (attempt2Char4.Text.Contains(c.ToString()) && attempt2Char5.Text == "")
-                    {
-                        attempt2Char4.Text = "";
-
-                    }
-                    else if (attempt2Char3.Text.Contains(c.ToString()) && attempt2Char4.Text == "")
-                    {
-                        attempt2Char3.Text = "";
-
-                    }
-                    else if (attempt2Char2.Text.Contains(c.ToString()) && attempt2Char3.Text == "")
-                    {
-                        attempt2Char2.Text = "";
-
-                    }
-                    else if (attempt2Char1.Text.Contains(c.ToString()) && attempt2Char2.Text == "")
-                    {
-                        attempt2Char1.Text = "";
-
-                    }
-                }//endif attempt 2
-
-                if (attempt3)
-                {
-                    //attempt3 
-                    if (attempt3Char7.Text.Contains(c.ToString()))
-                    {
-                        attempt3Char7.Text = "";
-
-                    }
-                    else if (attempt3Char6.Text.Contains(c.ToString()) && attempt3Char7.Text == "")
-                    {
-                        attempt3Char6.Text = "";
-
-                    }
-                    else if (attempt3Char5.Text.Contains(c.ToString()) && attempt3Char6.Text == "")
-                    {
-                        attempt3Char5.Text = "";
-
-                    }
-                    else if (attempt3Char4.Text.Contains(c.ToString()) && attempt3Char5.Text == "")
-                    {
-                        attempt3Char4.Text = "";
-
-                    }
-                    else if (attempt3Char3.Text.Contains(c.ToString()) && attempt3Char4.Text == "")
-                    {
-                        attempt3Char3.Text = "";
-
-                    }
-                    else if (attempt3Char2.Text.Contains(c.ToString()) && attempt3Char3.Text == "")
-                    {
-                        attempt3Char2.Text = "";
-
-                    }
-                    else if (attempt3Char1.Text.Contains(c.ToString()) && attempt3Char2.Text == "")
-                    {
-                        attempt3Char1.Text = "";
-
-                    }
-                }//endif attempt 3
-
-                if (attempt4)
-                {
-                    //attempt4 
-                    if (attempt4Char7.Text.Contains(c.ToString()))
-                    {
-                        attempt4Char7.Text = "";
-
-                    }
-                    else if (attempt4Char6.Text.Contains(c.ToString()) && attempt4Char7.Text == "")
-                    {
-                        attempt4Char6.Text = "";
-
-                    }
-                    else if (attempt4Char5.Text.Contains(c.ToString()) && attempt4Char6.Text == "")
-                    {
-                        attempt4Char5.Text = "";
-
-                    }
-                    else if (attempt4Char4.Text.Contains(c.ToString()) && attempt4Char5.Text == "")
-                    {
-                        attempt4Char4.Text = "";
-
-                    }
-                    else if (attempt4Char3.Text.Contains(c.ToString()) && attempt4Char4.Text == "")
-                    {
-                        attempt4Char3.Text = "";
-
-                    }
-                    else if (attempt4Char2.Text.Contains(c.ToString()) && attempt4Char3.Text == "")
-                    {
-                        attempt4Char2.Text = "";
-
-                    }
-                    else if (attempt4Char1.Text.Contains(c.ToString()) && attempt4Char2.Text == "")
-                    {
-                        attempt4Char1.Text = "";
-
-                    }
-                }//endif attempt 4
-
-                if (attempt5)
-                {
-                    //attempt5 
-                    if (attempt5Char7.Text.Contains(c.ToString()))
-                    {
-                        attempt5Char7.Text = "";
-
-                    }
-                    else if (attempt5Char6.Text.Contains(c.ToString()) && attempt5Char7.Text == "")
-                    {
-                        attempt5Char6.Text = "";
-
-                    }
-                    else if (attempt5Char5.Text.Contains(c.ToString()) && attempt5Char6.Text == "")
-                    {
-                        attempt5Char5.Text = "";
-
-                    }
-                    else if (attempt5Char4.Text.Contains(c.ToString()) && attempt5Char5.Text == "")
-                    {
-                        attempt5Char4.Text = "";
-
-                    }
-                    else if (attempt5Char3.Text.Contains(c.ToString()) && attempt5Char4.Text == "")
-                    {
-                        attempt5Char3.Text = "";
-
-                    }
-                    else if (attempt5Char2.Text.Contains(c.ToString()) && attempt5Char3.Text == "")
-                    {
-                        attempt5Char2.Text = "";
-
-                    }
-                    else if (attempt5Char1.Text.Contains(c.ToString()) && attempt5Char2.Text == "")
-                    {
-                        attempt5Char1.Text = "";
-
-                    }
-                }//endif attempt 5
-
-                if (attempt6)
-                {
-                    //attempt6 
-                    if (attempt6Char7.Text.Contains(c.ToString()))
-                    {
-                        attempt6Char7.Text = "";
-
-                    }
-                    else if (attempt6Char6.Text.Contains(c.ToString()) && attempt6Char7.Text == "")
-                    {
-                        attempt6Char6.Text = "";
-
-                    }
-                    else if (attempt6Char5.Text.Contains(c.ToString()) && attempt6Char6.Text == "")
-                    {
-                        attempt6Char5.Text = "";
-
-                    }
-                    else if (attempt6Char4.Text.Contains(c.ToString()) && attempt6Char5.Text == "")
-                    {
-                        attempt6Char4.Text = "";
-
-                    }
-                    else if (attempt6Char3.Text.Contains(c.ToString()) && attempt6Char4.Text == "")
-                    {
-                        attempt6Char3.Text = "";
-
-                    }
-                    else if (attempt6Char2.Text.Contains(c.ToString()) && attempt6Char3.Text == "")
-                    {
-                        attempt6Char2.Text = "";
-
-                    }
-                    else if (attempt6Char1.Text.Contains(c.ToString()) && attempt6Char2.Text == "")
-                    {
-                        attempt6Char1.Text = "";
-
-                    }
-                }//endif attempt 6
-            }//end for loop
-        }
 
         private void game1FilipinoHard_Load(object sender, EventArgs e)
         {

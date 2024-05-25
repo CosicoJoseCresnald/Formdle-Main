@@ -214,7 +214,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var winScreen = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         winScreen.Show();
                         attempt1 = true;
                     }
@@ -243,7 +243,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt2 = false;
@@ -270,7 +270,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt3 = false;
@@ -297,7 +297,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt4 = false;
@@ -325,7 +325,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt5 = false;
@@ -353,7 +353,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         var win = new WinScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         win.Show();
                         attempt1 = true;
                         attempt6 = false;
@@ -362,7 +362,7 @@ namespace Winformdle
                     {
                         await Task.Delay(2500);
                         LoseScreen LoseScreen = new LoseScreen(guessWord);
-                        this.Close();
+                        this.Hide();
                         LoseScreen.Show();
                         attempt1 = true;
                         attempt6 = false;

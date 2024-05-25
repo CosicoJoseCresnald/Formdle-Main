@@ -67,3 +67,35 @@ C:\Users\Sojeee\OneDrive\Documents\Winformdle-main2\Winformdle-main1\Winformdle\
 C:\Users\Sojeee\OneDrive\Documents\Winformdle-main2\Winformdle-main1\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game2FilipinoMedium.resources
 C:\Users\Sojeee\OneDrive\Documents\Winformdle-main2\Winformdle-main1\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game2FilipinoHard.resources
 C:\Users\Sojeee\OneDrive\Documents\Winformdle-main2\Winformdle-main1\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.MainMenu.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\bin\Debug\net8.0-windows\Winformdle.exe
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\bin\Debug\net8.0-windows\Winformdle.deps.json
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\bin\Debug\net8.0-windows\Winformdle.runtimeconfig.json
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\bin\Debug\net8.0-windows\Winformdle.dll
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\bin\Debug\net8.0-windows\Winformdle.pdb
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game1EnglishEasy.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game1EnglishHard.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game1EnglishMedium.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game1FilipinoEasy.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game1FilipinoHard.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game1FilipinoMedium.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game2EnglishEasy.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game2EnglishHard.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game2EnglishMedium.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game2FilipinoEasy.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game2FilipinoHard.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.game2FilipinoMedium.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.LoseScreen.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.MainMenu.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.Properties.Resources.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.WinScreen.resources
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.csproj.GenerateResource.cache
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.AssemblyInfoInputs.cache
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.AssemblyInfo.cs
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.csproj.CoreCompileInputs.cache
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.sourcelink.json
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.dll
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\refint\Winformdle.dll
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.pdb
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\Winformdle.genruntimeconfig.cache
+C:\Users\Sojeee\OneDrive\Desktop\Formdle\Formdle Final\Winformdle\Winformdle\obj\Debug\net8.0-windows\ref\Winformdle.dll

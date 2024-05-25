@@ -88,6 +88,7 @@
             Name = "LoseScreen";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form4";
+            FormClosed += LoseScreen_FormClosed;
             ResumeLayout(false);
             PerformLayout();
         }

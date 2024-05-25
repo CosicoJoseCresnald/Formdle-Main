@@ -26,13 +26,18 @@ namespace Winformdle
         private void button1_Click(object sender, EventArgs e)
         {
             Form mainMenu = new MainMenu();
-            this.Close();
+            this.Hide();
             mainMenu.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+        }
+
+        private void LoseScreen_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

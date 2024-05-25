@@ -87,6 +87,7 @@
             Name = "WinScreen";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form3";
+            FormClosed += WinScreen_FormClosed;
             ResumeLayout(false);
             PerformLayout();
         }

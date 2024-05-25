@@ -667,7 +667,7 @@ namespace Winformdle
             }//end for loop
         }
 
-        //REMOVECHAR METHOD (ENGLISH, EASY)
+        //REMOVECHAR METHOD (Filipino, EASY)
         public static void GM1FilipinoRemoveCharEasy()
         {
             //loop for letters a-z
@@ -859,7 +859,479 @@ namespace Winformdle
 
 
 
+        //GM1 FILIPINO MEDIUM
+        public static void GM1FilipinoRemoveCharMedium()
+        {
+            //loop for letters a-z
+            for (char c = 'A'; c <= 'Z'; c++)
+            {
+                if (game1FilipinoMedium.attempt1)
+                {
+                    //game1FilipinoMedium.attempt1
 
+                    if (game1FilipinoMedium.attempt1Char6.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoMedium.attempt1Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt1Char5.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt1Char6.Text == "")
+                    {
+                        game1FilipinoMedium.attempt1Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt1Char4.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt1Char5.Text == "")
+                    {
+                        game1FilipinoMedium.attempt1Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt1Char3.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt1Char4.Text == "")
+                    {
+                        game1FilipinoMedium.attempt1Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt1Char2.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt1Char3.Text == "")
+                    {
+                        game1FilipinoMedium.attempt1Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt1Char1.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt1Char2.Text == "")
+                    {
+                        game1FilipinoMedium.attempt1Char1.Text = "";
+
+                    }
+
+                }//endif game1FilipinoMedium.attempt 1
+
+                if (game1FilipinoMedium.attempt2)
+                {
+                    //game1FilipinoMedium.attempt2 
+                    if (game1FilipinoMedium.attempt2Char6.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoMedium.attempt2Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt2Char5.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt2Char6.Text == "")
+                    {
+                        game1FilipinoMedium.attempt2Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt2Char4.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt2Char5.Text == "")
+                    {
+                        game1FilipinoMedium.attempt2Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt2Char3.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt2Char4.Text == "")
+                    {
+                        game1FilipinoMedium.attempt2Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt2Char2.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt2Char3.Text == "")
+                    {
+                        game1FilipinoMedium.attempt2Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt2Char1.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt2Char2.Text == "")
+                    {
+                        game1FilipinoMedium.attempt2Char1.Text = "";
+
+                    }
+                }//endif game1FilipinoMedium.attempt 2
+
+                if (game1FilipinoMedium.attempt3)
+                {
+                    //game1FilipinoMedium.attempt3 
+                    if (game1FilipinoMedium.attempt3Char6.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoMedium.attempt3Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt3Char5.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt3Char6.Text == "")
+                    {
+                        game1FilipinoMedium.attempt3Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt3Char4.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt3Char5.Text == "")
+                    {
+                        game1FilipinoMedium.attempt3Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt3Char3.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt3Char4.Text == "")
+                    {
+                        game1FilipinoMedium.attempt3Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt3Char2.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt3Char3.Text == "")
+                    {
+                        game1FilipinoMedium.attempt3Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt3Char1.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt3Char2.Text == "")
+                    {
+                        game1FilipinoMedium.attempt3Char1.Text = "";
+
+                    }
+                }//endif game1FilipinoMedium.attempt 3
+
+                if (game1FilipinoMedium.attempt4)
+                {
+                    //game1FilipinoMedium.attempt4 
+                    if (game1FilipinoMedium.attempt4Char6.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoMedium.attempt4Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt4Char5.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt4Char6.Text == "")
+                    {
+                        game1FilipinoMedium.attempt4Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt4Char4.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt4Char5.Text == "")
+                    {
+                        game1FilipinoMedium.attempt4Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt4Char3.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt4Char4.Text == "")
+                    {
+                        game1FilipinoMedium.attempt4Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt4Char2.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt4Char3.Text == "")
+                    {
+                        game1FilipinoMedium.attempt4Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt4Char1.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt4Char2.Text == "")
+                    {
+                        game1FilipinoMedium.attempt4Char1.Text = "";
+
+                    }
+                }//endif game1FilipinoMedium.attempt 4
+
+                if (game1FilipinoMedium.attempt5)
+                {
+                    //game1FilipinoMedium.attempt5 
+                    if (game1FilipinoMedium.attempt5Char6.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoMedium.attempt5Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt5Char5.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt5Char6.Text == "")
+                    {
+                        game1FilipinoMedium.attempt5Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt5Char4.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt5Char5.Text == "")
+                    {
+                        game1FilipinoMedium.attempt5Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt5Char3.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt5Char4.Text == "")
+                    {
+                        game1FilipinoMedium.attempt5Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt5Char2.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt5Char3.Text == "")
+                    {
+                        game1FilipinoMedium.attempt5Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt5Char1.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt5Char2.Text == "")
+                    {
+                        game1FilipinoMedium.attempt5Char1.Text = "";
+
+                    }
+                }//endif game1FilipinoMedium.attempt 5
+
+                if (game1FilipinoMedium.attempt6)
+                {
+                    //game1FilipinoMedium.attempt6 
+                    if (game1FilipinoMedium.attempt6Char6.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoMedium.attempt6Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt6Char5.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt6Char6.Text == "")
+                    {
+                        game1FilipinoMedium.attempt6Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt6Char4.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt6Char5.Text == "")
+                    {
+                        game1FilipinoMedium.attempt6Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt6Char3.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt6Char4.Text == "")
+                    {
+                        game1FilipinoMedium.attempt6Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt6Char2.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt6Char3.Text == "")
+                    {
+                        game1FilipinoMedium.attempt6Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoMedium.attempt6Char1.Text.Contains(c.ToString()) && game1FilipinoMedium.attempt6Char2.Text == "")
+                    {
+                        game1FilipinoMedium.attempt6Char1.Text = "";
+
+                    }
+                }//endif game1FilipinoMedium.attempt 5
+            }//end for loop
+        }
+
+
+
+
+
+        //GM1 FILIPINO HARD
+        public static void GM1FilipinoRemoveCharHard()
+        {
+            //loop for letters a-z
+            for (char c = 'A'; c <= 'Z'; c++)
+            {
+                if (game1FilipinoHard.attempt1)
+                {
+                    //attempt1
+
+                    if (game1FilipinoHard.attempt1Char7.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoHard.attempt1Char7.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt1Char6.Text.Contains(c.ToString()) && game1FilipinoHard.attempt1Char7.Text == "")
+                    {
+                        game1FilipinoHard.attempt1Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt1Char5.Text.Contains(c.ToString()) && game1FilipinoHard.attempt1Char6.Text == "")
+                    {
+                        game1FilipinoHard.attempt1Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt1Char4.Text.Contains(c.ToString()) && game1FilipinoHard.attempt1Char5.Text == "")
+                    {
+                        game1FilipinoHard.attempt1Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt1Char3.Text.Contains(c.ToString()) && game1FilipinoHard.attempt1Char4.Text == "")
+                    {
+                        game1FilipinoHard.attempt1Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt1Char2.Text.Contains(c.ToString()) && game1FilipinoHard.attempt1Char3.Text == "")
+                    {
+                        game1FilipinoHard.attempt1Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt1Char1.Text.Contains(c.ToString()) && game1FilipinoHard.attempt1Char2.Text == "")
+                    {
+                        game1FilipinoHard.attempt1Char1.Text = "";
+
+                    }
+
+                }//endif attempt 1
+
+                if (game1FilipinoHard.attempt2)
+                {
+                    //attempt2 
+                    if (game1FilipinoHard.attempt2Char7.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoHard.attempt2Char7.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt2Char6.Text.Contains(c.ToString()) && game1FilipinoHard.attempt2Char7.Text == "")
+                    {
+                        game1FilipinoHard.attempt2Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt2Char5.Text.Contains(c.ToString()) && game1FilipinoHard.attempt2Char6.Text == "")
+                    {
+                        game1FilipinoHard.attempt2Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt2Char4.Text.Contains(c.ToString()) && game1FilipinoHard.attempt2Char5.Text == "")
+                    {
+                        game1FilipinoHard.attempt2Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt2Char3.Text.Contains(c.ToString()) && game1FilipinoHard.attempt2Char4.Text == "")
+                    {
+                        game1FilipinoHard.attempt2Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt2Char2.Text.Contains(c.ToString()) && game1FilipinoHard.attempt2Char3.Text == "")
+                    {
+                        game1FilipinoHard.attempt2Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt2Char1.Text.Contains(c.ToString()) && game1FilipinoHard.attempt2Char2.Text == "")
+                    {
+                        game1FilipinoHard.attempt2Char1.Text = "";
+
+                    }
+                }//endif attempt 2
+
+                if (game1FilipinoHard.attempt3)
+                {
+                    //attempt3 
+                    if (game1FilipinoHard.attempt3Char7.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoHard.attempt3Char7.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt3Char6.Text.Contains(c.ToString()) && game1FilipinoHard.attempt3Char7.Text == "")
+                    {
+                        game1FilipinoHard.attempt3Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt3Char5.Text.Contains(c.ToString()) && game1FilipinoHard.attempt3Char6.Text == "")
+                    {
+                        game1FilipinoHard.attempt3Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt3Char4.Text.Contains(c.ToString()) && game1FilipinoHard.attempt3Char5.Text == "")
+                    {
+                        game1FilipinoHard.attempt3Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt3Char3.Text.Contains(c.ToString()) && game1FilipinoHard.attempt3Char4.Text == "")
+                    {
+                        game1FilipinoHard.attempt3Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt3Char2.Text.Contains(c.ToString()) && game1FilipinoHard.attempt3Char3.Text == "")
+                    {
+                        game1FilipinoHard.attempt3Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt3Char1.Text.Contains(c.ToString()) && game1FilipinoHard.attempt3Char2.Text == "")
+                    {
+                        game1FilipinoHard.attempt3Char1.Text = "";
+
+                    }
+                }//endif attempt 3
+
+                if (game1FilipinoHard.attempt4)
+                {
+                    //attempt4 
+                    if (game1FilipinoHard.attempt4Char7.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoHard.attempt4Char7.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt4Char6.Text.Contains(c.ToString()) && game1FilipinoHard.attempt4Char7.Text == "")
+                    {
+                        game1FilipinoHard.attempt4Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt4Char5.Text.Contains(c.ToString()) && game1FilipinoHard.attempt4Char6.Text == "")
+                    {
+                        game1FilipinoHard.attempt4Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt4Char4.Text.Contains(c.ToString()) && game1FilipinoHard.attempt4Char5.Text == "")
+                    {
+                        game1FilipinoHard.attempt4Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt4Char3.Text.Contains(c.ToString()) && game1FilipinoHard.attempt4Char4.Text == "")
+                    {
+                        game1FilipinoHard.attempt4Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt4Char2.Text.Contains(c.ToString()) && game1FilipinoHard.attempt4Char3.Text == "")
+                    {
+                        game1FilipinoHard.attempt4Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt4Char1.Text.Contains(c.ToString()) && game1FilipinoHard.attempt4Char2.Text == "")
+                    {
+                        game1FilipinoHard.attempt4Char1.Text = "";
+
+                    }
+                }//endif attempt 4
+
+                if (game1FilipinoHard.attempt5)
+                {
+                    //attempt5 
+                    if (game1FilipinoHard.attempt5Char7.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoHard.attempt5Char7.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt5Char6.Text.Contains(c.ToString()) && game1FilipinoHard.attempt5Char7.Text == "")
+                    {
+                        game1FilipinoHard.attempt5Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt5Char5.Text.Contains(c.ToString()) && game1FilipinoHard.attempt5Char6.Text == "")
+                    {
+                        game1FilipinoHard.attempt5Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt5Char4.Text.Contains(c.ToString()) && game1FilipinoHard.attempt5Char5.Text == "")
+                    {
+                        game1FilipinoHard.attempt5Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt5Char3.Text.Contains(c.ToString()) && game1FilipinoHard.attempt5Char4.Text == "")
+                    {
+                        game1FilipinoHard.attempt5Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt5Char2.Text.Contains(c.ToString()) && game1FilipinoHard.attempt5Char3.Text == "")
+                    {
+                        game1FilipinoHard.attempt5Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt5Char1.Text.Contains(c.ToString()) && game1FilipinoHard.attempt5Char2.Text == "")
+                    {
+                        game1FilipinoHard.attempt5Char1.Text = "";
+
+                    }
+                }//endif attempt 5
+
+                if (game1FilipinoHard.attempt6)
+                {
+                    //attempt6 
+                    if (game1FilipinoHard.attempt6Char7.Text.Contains(c.ToString()))
+                    {
+                        game1FilipinoHard.attempt6Char7.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt6Char6.Text.Contains(c.ToString()) && game1FilipinoHard.attempt6Char7.Text == "")
+                    {
+                        game1FilipinoHard.attempt6Char6.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt6Char5.Text.Contains(c.ToString()) && game1FilipinoHard.attempt6Char6.Text == "")
+                    {
+                        game1FilipinoHard.attempt6Char5.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt6Char4.Text.Contains(c.ToString()) && game1FilipinoHard.attempt6Char5.Text == "")
+                    {
+                        game1FilipinoHard.attempt6Char4.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt6Char3.Text.Contains(c.ToString()) && game1FilipinoHard.attempt6Char4.Text == "")
+                    {
+                        game1FilipinoHard.attempt6Char3.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt6Char2.Text.Contains(c.ToString()) && game1FilipinoHard.attempt6Char3.Text == "")
+                    {
+                        game1FilipinoHard.attempt6Char2.Text = "";
+
+                    }
+                    else if (game1FilipinoHard.attempt6Char1.Text.Contains(c.ToString()) && game1FilipinoHard.attempt6Char2.Text == "")
+                    {
+                        game1FilipinoHard.attempt6Char1.Text = "";
+
+                    }
+                }//endif attempt 6
+            }//end for loop
+        }
 
 
 
@@ -867,9 +1339,6 @@ namespace Winformdle
 
 
         //GAMEMODE 2
-
-
-
 
         public static void GM2EnglishRemoveCharEasy()
         {
@@ -1301,7 +1770,7 @@ namespace Winformdle
                         game2EnglishHard.attempt1Char6.Text = "";
 
                     }
-                    else if (game1EnglishHard.attempt1Char5.Text.Contains(c.ToString()) && game2EnglishHard.attempt1Char6.Text == "")
+                    else if (game2EnglishHard.attempt1Char5.Text.Contains(c.ToString()) && game2EnglishHard.attempt1Char6.Text == "")
                     {
                         game2EnglishHard.attempt1Char5.Text = "";
 
@@ -1962,7 +2431,7 @@ namespace Winformdle
                         game2FilipinoHard.attempt1Char6.Text = "";
 
                     }
-                    else if (game1EnglishHard.attempt1Char5.Text.Contains(c.ToString()) && game2FilipinoHard.attempt1Char6.Text == "")
+                    else if (game2FilipinoHard.attempt1Char5.Text.Contains(c.ToString()) && game2FilipinoHard.attempt1Char6.Text == "")
                     {
                         game2FilipinoHard.attempt1Char5.Text = "";
 

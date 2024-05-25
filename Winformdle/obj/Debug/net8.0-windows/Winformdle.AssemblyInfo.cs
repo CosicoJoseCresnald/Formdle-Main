@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Winformdle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+215305330e26bda88b493417c0367a0d019447f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Winformdle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Winformdle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

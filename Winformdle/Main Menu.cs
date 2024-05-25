@@ -161,7 +161,7 @@ namespace Winformdle
             pnlGameMode.Visible = false;
             pnlMainMenu.Visible = false;
             pnlLanguage.Visible = true;
-            pnlDifficulty.Visible =false;
+            pnlDifficulty.Visible = false;
         }
 
         private void btn2Player_Click(object sender, EventArgs e)
@@ -171,6 +171,11 @@ namespace Winformdle
             pnlMainMenu.Visible = false;
             pnlLanguage.Visible = true;
             pnlDifficulty.Visible = false;
+        }
+
+        private void MainMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
